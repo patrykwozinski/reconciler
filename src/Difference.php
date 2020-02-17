@@ -36,9 +36,4 @@ final class Difference
     {
         return $this->message;
     }
-
-    public function __toString(): string
-    {
-        return '';
-    }
 }
