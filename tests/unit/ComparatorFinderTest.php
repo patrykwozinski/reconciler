@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Docplanner\Reconciler\Tests\Unit;
 
+use Docplanner\Reconciler\Comparator\ComparatorFinder;
 use Docplanner\Reconciler\Comparator\ComparatorNotFound;
-use Docplanner\Reconciler\ComparatorFinder;
 use Docplanner\Reconciler\Tests\Double\StubComparator;
 use PHPUnit\Framework\TestCase;
 

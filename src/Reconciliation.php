@@ -4,6 +4,9 @@ declare(strict_types=1);
 
 namespace Docplanner\Reconciler;
 
+use Docplanner\Reconciler\Comparator\ComparatorFinder;
+use Docplanner\Reconciler\Reaction\Reaction;
+
 final class Reconciliation
 {
     /** @var Reaction */

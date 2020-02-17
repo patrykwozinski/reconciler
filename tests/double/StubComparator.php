@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Docplanner\Reconciler\Tests\Double;
 
-use Docplanner\Reconciler\Comparator;
+use Docplanner\Reconciler\Comparator\Comparator;
 use Docplanner\Reconciler\Difference;
 
 final class StubComparator implements Comparator

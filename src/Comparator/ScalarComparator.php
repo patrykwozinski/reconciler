@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Docplanner\Reconciler\Comparator;
 
 use Assert\Assert;
-use Docplanner\Reconciler\Comparator;
 use Docplanner\Reconciler\Difference;
 
 final class ScalarComparator implements Comparator

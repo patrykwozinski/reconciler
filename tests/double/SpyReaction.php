@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Docplanner\Reconciler\Tests\Double;
 
 use Docplanner\Reconciler\Difference;
-use Docplanner\Reconciler\Reaction;
+use Docplanner\Reconciler\Reaction\Reaction;
 
 final class SpyReaction implements Reaction
 {

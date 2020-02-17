@@ -2,9 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Docplanner\Reconciler;
-
-use Docplanner\Reconciler\Comparator\ComparatorNotFound;
+namespace Docplanner\Reconciler\Comparator;
 
 final class ComparatorFinder
 {

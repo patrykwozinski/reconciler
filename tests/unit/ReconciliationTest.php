@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Docplanner\Reconciler\Tests\Unit;
 
-use Docplanner\Reconciler\ComparatorFinder;
+use Docplanner\Reconciler\Comparator\ComparatorFinder;
 use Docplanner\Reconciler\Reconciliation;
 use Docplanner\Reconciler\Tests\Double\SpyReaction;
 use Docplanner\Reconciler\Tests\Double\StubComparator;
