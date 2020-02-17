@@ -1,5 +1,5 @@
 ## Reconciler
-Allows you to compare some data and react when it's different.
+It allows you to compare some data and react when it's different.
 
 ### How to install
 ```bash
@@ -8,7 +8,7 @@ composer.phar require patrykwozinski/reconciler
 
 
 ### How to use it
-Prepare your `ComparatorFinder` with needed implementations and inject it into `Reconciliation` object. Everything together should be registered into runtime of your application (for example using Symfony Container).
+Prepare your `ComparatorFinder` with needed implementations and inject it into `Reconciliation` object. Everything together should be registered into the runtime of your application (for example using Symfony Container).
 
 When it's ready and you have `Reconciliation` in the container - just take it.
 
