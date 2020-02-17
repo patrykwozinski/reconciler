@@ -17,6 +17,8 @@ final class ComparatorFinder
     }
 
     /**
+     * @param mixed $element
+     *
      * @throws ComparatorNotFound
      */
     public function for($element): Comparator

@@ -17,6 +17,10 @@ final class Reconciliation
         $this->comparatorFinder = $comparatorFinder;
     }
 
+    /**
+     * @param mixed $left
+     * @param mixed $right
+     */
     public function compare($left, $right): Difference
     {
         $comparator = $this->comparatorFinder->for($left);

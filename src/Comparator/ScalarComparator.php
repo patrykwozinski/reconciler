@@ -10,6 +10,10 @@ use Docplanner\Reconciler\Difference;
 
 final class ScalarComparator implements Comparator
 {
+    /**
+     * @param mixed $left
+     * @param mixed $right
+     */
     public function compare($left, $right): Difference
     {
         Assert::thatAll([$left, $right])->scalar();
