@@ -1,8 +1,8 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Docplanner\Reconciler\Comparator;
-
 
 use Assert\Assert;
 use Docplanner\Reconciler\Comparator;
@@ -10,22 +10,21 @@ use Docplanner\Reconciler\Difference;
 
 final class ScalarComparator implements Comparator
 {
-	public function compare($left, $right): Difference
-	{
-		Assert::thatAll([$left, $right])->scalar();
+    public function compare($left, $right): Difference
+    {
+        Assert::thatAll([$left, $right])->scalar();
 
-		if ($left === $right)
-		{
-			return Difference::notFound();
-		}
+        if ($left === $right) {
+            return Difference::notFound();
+        }
 
-		$message = sprintf('Difference found between scalars: "%s" and "%s"', $left, $right);
+        $message = \sprintf('Difference found between scalars: "%s" and "%s"', $left, $right);
 
-		return Difference::found($message);
-	}
+        return Difference::found($message);
+    }
 
-	public function accepts(string $type): bool
-	{
-		return $type === 'string';
-	}
+    public function accepts(string $type): bool
+    {
+        return 'string' === $type;
+    }
 }
